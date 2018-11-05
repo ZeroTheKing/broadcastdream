@@ -49,7 +49,7 @@ msg.delete();
 }
 });
 
- const devs = ['323160008411971585'];
+const devs = ['323160008411971585'];
 const adminprefix = "#";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
